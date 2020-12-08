@@ -16,9 +16,11 @@
             <!-- the main form  -->
             <form method=post>
                 <div>
+                    <!-- helper function in .formhelpers.html to render form inputs -->
                     {{ render_field(form.int_input) }}
                 </div>
-                <button class='btn btn-primary' type=submit>Submit</button>
+                <!-- https://getbootstrap.com/docs/4.0/components/buttons/ -->
+                <button class='btn btn-secondary' type=submit>Submit</button>
             </form>
         </div>
     </body>
