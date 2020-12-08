@@ -2,7 +2,6 @@ aniso8601==8.1.0
 attrs==20.3.0
 click==7.1.2
 Flask==1.1.2
--e git+https://github.com/loafyyy/flask_project_tutorial.git@d3794bbd3515a0c6006a59a2ed30da97a7e949d0#egg=flask_project_tutorial
 Flask-RESTful==0.3.8
 importlib-metadata==3.1.1
 iniconfig==1.1.1
