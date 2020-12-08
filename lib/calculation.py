@@ -5,7 +5,7 @@ class Exponentiator(object):
         self.power = power
 
     def exponentiate(self, x):
-        return x ** self.power
+        return x ** self.power + 1
 
 def generate_random_number():
     return random.randint(-100, 100)
