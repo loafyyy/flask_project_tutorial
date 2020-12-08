@@ -1,6 +1,6 @@
 from flask import Flask, flash, render_template, request
 from forms import MathForm
-from calculation import square_number
+from lib.calculation import square_number
 
 app = Flask(__name__)
 
