@@ -5,6 +5,7 @@ To run the Flask application:
 git clone https://github.com/loafyyy/flask_project_tutorial.git  
 cd flask_project_tutorial  
 pip3 install -r requirements.txt  
+pip3 install -e .  
 python3 app.py  
 ```
 Then check out the following URLs:  
@@ -15,4 +16,4 @@ and
 http://localhost:5000/math/  
 
 To test:  
-`PYTHONPATH=. pytest`
+`pytest`
